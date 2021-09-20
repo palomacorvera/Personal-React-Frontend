@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 9fr 1fr;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 10px;
+}
+
+.container:hover {
+    background: rgb(255, 243, 243);
+    cursor: pointer;
+}
+
+.pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 0.7rem;
+}
+
+.info {
+    align-self: center;
+}
+
+.info p {
+    padding: 0.1rem;
+    color: rgb(156, 155, 155);
+}
+
+.icon {
+   align-self: center;
+}
+
+.icon:hover {
+    color: rgb(247, 149, 165);
+}
